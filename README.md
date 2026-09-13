@@ -1,10 +1,19 @@
-# Gitflow Lab 5 - Develop Version
+# Gitflow Lab 5 - Final Resolved Version
 
-This repository demonstrates the GitFlow workflow for a simple login feature.
+This repository demonstrates the GitFlow workflow for a simple login feature and a conflict resolution exercise.
 
-## Develop branch
-- Develop side: this file was changed on develop.
-- Purpose: test merge conflict handling before release.
+## Branch flow
+- main: production release branch
+- develop: integration branch
+- feature/login: login feature branch
+- feature/conflict: conflict-resolution practice branch
 
-## Current work
-The application is ready for the next integration step in develop.
+## Login feature
+The login feature includes:
+- user authentication flow
+- login form UI placeholder
+- validation and error handling notes
+
+## Conflict resolution
+This README was resolved after a merge conflict between the feature and develop branches.
+The final version keeps both the feature and develop context while producing a clean integrated result.
