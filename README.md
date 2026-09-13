@@ -1,16 +1,19 @@
-# Gitflow Lab 5
+# Gitflow Lab 5 - Final Resolved Version
 
-This repository demonstrates the GitFlow workflow for a simple login feature.
+This repository demonstrates the GitFlow workflow for a simple login feature and a conflict resolution exercise.
 
-## Feature branch
-- Active branch: feature/login
-- Purpose: create the login functionality and merge it into develop after review.
+## Branch flow
+- main: production release branch
+- develop: integration branch
+- feature/login: login feature branch
+- feature/conflict: conflict-resolution practice branch
 
-## Current work
+## Login feature
 The login feature includes:
 - user authentication flow
 - login form UI placeholder
 - validation and error handling notes
 
-## Merge target
-Once the login feature is validated, it should be merged into the develop branch before any release work is prepared.
+## Conflict resolution
+This README was resolved after a merge conflict between the feature and develop branches.
+The final version keeps both the feature and develop context while producing a clean integrated result.
